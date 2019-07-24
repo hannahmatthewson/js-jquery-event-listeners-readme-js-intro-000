@@ -17,7 +17,6 @@ function submitIt() {
   });
 }
 
-// call functions here
 function pressIt() {
   $(document).on('keydown', function(key) {
     if(key.which == 71){
@@ -27,7 +26,6 @@ function pressIt() {
 }
 
 $(document).ready(function(){
-  // call functions here
   getIt();
   frameIt();
   submitIt();

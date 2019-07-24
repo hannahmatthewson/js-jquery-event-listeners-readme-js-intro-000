@@ -1,6 +1,4 @@
-//define functions here
-
-$(document).ready(function(){
+$(document).ready(function() {
 
 function getIt() {
   $('p').on('click', function() {
@@ -16,7 +14,7 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(key) {
-    if(key.which == 'G'){
+    if(key.which == 71){
         alert('G was pressed');
     }
   })

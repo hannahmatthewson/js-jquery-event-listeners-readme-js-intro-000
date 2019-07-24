@@ -2,6 +2,30 @@
 
 $(document).ready(function(){
 
-// call functions here
+function getIt() {
+  $('p').on('click', function() {
+    alert("Hey!")
+  }
+});
+
+function frameIt() {
+  $('img').on('load', function() {
+    ($( "img" ).addClass('tasty')
+  })
+}
+
+function pressIt() {
+  $('input').on('keydown', function(key) {
+    if(key.which == 'G'){
+        alert('G was pressed');
+    }
+  })
+}
+
+function submitIt() {
+  $("form").on("submit", function() {
+    alert('your form is going to be submitted now');
+  });
+}
 
 });

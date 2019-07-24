@@ -1,11 +1,10 @@
-$(document).ready(function() {
-
 function getIt() {
   $('p').on('click', function() {
     alert("Hey!")
   }
 });
 
+$(document).ready(function() {
 function frameIt() {
   $('img').on('load', function() {
     ($( "img" ).addClass('tasty')
@@ -26,9 +25,10 @@ function submitIt() {
   });
 }
 
-getIt()
-frameIt()
-submitIt()
-pressIt()
+$(document).ready(function(){
+  getIt();
+  frameIt();
+  submitIt();
+  pressIt();
 
 });

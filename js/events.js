@@ -28,4 +28,9 @@ function submitIt() {
   });
 }
 
+getIt()
+frameIt()
+submitIt()
+pressIt()
+
 });
